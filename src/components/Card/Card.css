@@ -1,0 +1,20 @@
+.selected-card {
+  background-color: purple;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 20px purple; /* Glow effect */
+  border: 10px solid purple; /* Border around the selected card */
+}
+
+.selected-card:hover {
+  background-color: rgb(98, 20, 215); /* Darker purple on hover */
+}
+
+.card {
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smoother hover transition */
+  border-radius: 50%; /* Ensure the card remains circular */
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light overlay on hover */
+  transform: scale(1.05); /* Scale slightly on hover */
+}
